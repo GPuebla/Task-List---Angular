@@ -16,7 +16,7 @@ import { TasksItemComponent } from './components/tasks-item/tasks-item.component
     TasksItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

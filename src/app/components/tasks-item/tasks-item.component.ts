@@ -1,6 +1,6 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { TASKS } from 'src/app/mock-tasks';
-import { task } from 'src/app/task';
+import { Task } from 'src/app/task';
 
 
 @Component({
@@ -9,8 +9,8 @@ import { task } from 'src/app/task';
   styleUrls: ['./tasks-item.component.css']
 })
 export class TasksItemComponent implements OnInit {
-
-  @Input() task: task[] = TASKS[0];
+  
+  @Input() task: Task = TASKS[0];
   constructor() { }
 
   ngOnInit(): void {
